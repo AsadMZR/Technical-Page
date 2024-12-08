@@ -1,0 +1,144 @@
+@media(max-width:600px){
+    #navbar{
+      display:flex;
+    }
+  }
+  
+  
+  
+  
+  #navbar{
+   
+        display: flex;
+        flex-direction:column;
+        justify-content:column;
+        align-items: center;
+        position: fixed;
+       
+  }
+  
+  .nav-link {
+     width: 100%;
+        height: 50px;
+        /*margin:20px;*/
+      margin-top:55px;
+      /*margin-left:10%;*/
+      color:#8e3d3d ;
+     z-index:9;
+      }
+  
+      nav {
+       background-color:#be3144;
+        position:fixed;
+        top:0;
+        left:0;
+        width:37vh;
+    
+    height: 100%;
+    font-size:1.5rem;
+  
+      }
+  
+      #title{
+        font-size:20px;
+        color:yellow;
+        position:relative;
+        top:5px;
+        left:10px;
+      }
+  
+      .center{
+        position:absolute;
+        left:27%;
+      }
+
+  
+  
+  .box{
+   
+  height:70vh;
+  width:29.5vh;
+    border: 1px solid black;
+    margin:50px;
+    background: linear-gradient(180deg,#c58f0e,#efc512,#FFECA1);
+    position:fixed;
+    
+  }
+  
+  .box_Colour{
+    background:#f5f6c2 ;
+    width:98%;
+  }
+  
+  .box1{
+    width:95%;
+    height:50px;
+    background:linear-gradient(90deg, #69f44b,#824bf4);
+    margin-left:7px;
+  }
+  
+  .box2{
+    width:95%;
+    height:50px;
+    background:linear-gradient(180deg, #69f44b,#824bf4);
+    margin-left:7px;
+  }
+  
+  .box3{
+    width:95%;
+    height:50px;
+    background:linear-gradient(90deg, #69f44b,#4bbef4,#824bf4);
+    margin-left:7px;
+  }
+  
+  #gradient_example{
+    margin-left:15%
+  }
+  
+  #list{
+    margin-left:40%;
+    
+  }
+  
+  #justify_example{
+    margin-left:35%
+  }
+  
+  #list1{
+    display:flex;
+    flex-direction:row;
+    margin:20px;
+     margin-left:30px;
+  }
+  
+  #list2{
+    display:flex;
+    flex-direction:column;
+    margin:20px;
+    margin-left:110px;
+  }
+  
+   #flex-direction{
+     margin-left:35%;
+   }
+  
+   .button{
+     height:25px;
+     width:10%;
+     background:orange;
+     margin-left:230px;
+   }
+  
+   .button:hover{
+     background:#e9eee8;
+   }
+  
+   #button{
+     margin-left:3px;
+   }
+
+   #list3{
+    display:flex;
+    flex-direction:column;
+    margin-left: 20px;
+  }
